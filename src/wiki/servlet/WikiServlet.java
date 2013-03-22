@@ -64,9 +64,9 @@ public class WikiServlet extends HttpServlet {
 	
 
 		try {
-			String url = "jdbc:mysql://cs3.calstatela.edu/cs320stu19";
-			String username = "cs320stu19";
-			String password = "z*M#8hJO";
+			String url = "";
+			String username = "";
+			String password = "";
 			
 
 			Connection c = DriverManager.getConnection(url, username, password);
@@ -173,9 +173,9 @@ public class WikiServlet extends HttpServlet {
 	
 		try 
 		{
-			String url = "jdbc:mysql://cs3.calstatela.edu/cs320stu19";
-			String username = "cs320stu19";
-			String password = "z*M#8hJO";
+			String url = "";
+			String username = "";
+			String password = "";
 
 			Connection c = DriverManager.getConnection(url, username, password);
 			String sql = "select * from revisions where id = ?";
